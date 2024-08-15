@@ -1,0 +1,160 @@
+body {
+    background-color: #114932;
+}
+
+
+#navbar {
+    background-color: #114932;
+    width: 100%;
+    justify-content: right;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #215740;
+    width: 100%;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-logo {
+    margin: auto;
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #0a251a;
+    min-height: none;
+    top: 0;
+    display: flex;
+    justify-content: left;
+}
+
+#home-all {
+    margin-bottom: 50px;
+    color: #fac209;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.home-introduction {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.home-description {
+    font-size: 2rem;
+}
+
+.me-photo {
+    margin: auto;
+    padding: 50px 25px;
+    height: auto;
+    width: 200px;
+}
+
+#about-all {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 50%;
+    justify-content: center;
+}
+
+.about-introduction {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.about-description {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+/* nakaw sa chatgpt - 1st time - need pala ayusin jeez*/
+#project-all {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.project-introduction {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.shape-project {
+    width: 80%; /* Adjust the width to your preference */
+    height: 300px; /* Adjust the height to your preference */
+    background-color: #426317; /* Background color of the shape */
+    border-radius: 10px; /* Adjust the border radius for rounded corners */
+    text-align: center;
+}    
+
+.text-project {
+    font-size: 5rem; /* Adjust the font size to your preference */
+    font-size: 5vi;
+    color: #fff; /* Text color */
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 100px; /* Vertical alignment within the shape */
+    text-decoration: solid;
+}
+
+
+footer{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-moment {
+    background-color: #57491d;
+    padding: 45px 20px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    padding: 10px;
+    background-color: #737373;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icons :hover {
+    transform: scale(1.6);
+}
+
+.to-top {
+    color: #757575
+}
+
+.to-top a::after {
+    color: #757575;
+}
