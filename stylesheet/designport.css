@@ -101,10 +101,15 @@ li a {
     width: 200px;
 } */
 
+#about-div {
+    display: flex;
+    flex-direction: row;
+}
+
 #about-all {
     color: #fff;
     font-size: 1.5rem;
-    margin: 150px;
+    margin: 200px;
     width: 50%;
     justify-content: center;
     align-items: center;
@@ -119,6 +124,17 @@ li a {
 .about-description {
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
+}
+
+#about-img {
+    margin: auto 75px;
+    padding: 25px;
+    height: auto;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 15%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* nakaw sa chatgpt - 1st time - need pala ayusin jeez */
