@@ -35,6 +35,8 @@ header {
     height: 100%;
 }
 
+
+/* this is the part that makes the navbar horizontal */
 nav > .navbar-right > ul {
     width: 35vw;
     display: flex;
@@ -46,6 +48,7 @@ nav > .navbar-right > ul {
     width: 100%;
 }
 
+/* pretty self explanatory with its class name, right?! */
 .navbar-right {
     float: right;
 }
@@ -73,21 +76,22 @@ li a {
 
 
 /* -- PAG-PRAY NATIN CSS SKILLS KO!! HAHAHA takte -- */
-
 #home-all {
-    margin: 150px;
+    margin: 300px auto;
+    padding-top: 75px;
     color: #fac209;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    
 }
 
 .home-introduction {
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 0;
 }
 
 .home-description {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /* .me-photo {
@@ -100,15 +104,16 @@ li a {
 #about-all {
     color: #fff;
     font-size: 1.5rem;
-    margin: auto;
-    margin-bottom: 50px;
+    margin: 150px;
     width: 50%;
     justify-content: center;
+    align-items: center;
 }
 
 .about-introduction {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    padding-bottom: 2vh;
 }
 
 .about-description {

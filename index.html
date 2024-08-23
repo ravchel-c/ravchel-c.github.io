@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rachel Anne Cilon's Portfolio</title>
-  <!-- === CSS === -->
+  <!-- === CSS and other links === -->
   <link rel="stylesheet" href="stylesheet/designport.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
@@ -12,41 +12,53 @@
 
 <body>
   <!-- ===== NAVIGATION BAR THING ===== -->
-   <div id="page-wrapper">
+  <div id="page-wrapper">
     <header id="header">
       <img id="header-logo" src="img/logo-1.png" alt="Portfolio logo 1">
       <div id="navbar">
         <nav>
           <div class="navbar-right">
             <ul>
-              <li><a href="#home-all">Home</a></li>
-              <li><a href="#about-all">About</a></li>
+              <li><a href="#home-div">Home</a></li>
+              <li><a href="#about-div">About</a></li>
               <li><a href="#project-all">Project</a></li>
-              <li><a href="#contact-all">Contact</a></li>
+              <li><a href="resume-all">Resume</a></li>
             </ul>
           </div>
         </nav>
       </div>
     </header>
-   </div>
+  </div>
 
-  <section id="home-all">
-    <h1 class="home-introduction">Hello!</h1>
-    <p class="home-description">I'm Rachel, a computer science student.</p>
-  </section>
+  <!-- i hope it's not weird to have this hr, and not really see it -->
+  <hr id="home-div">
 
-  <hr>
+  <div>
+    <section id="home-all">
+      <h1 class="home-introduction">Hello!</h1>
+      <p class="home-description">I'm Rachel, a computer science student.</p>
+    </section>
+  </div>
 
-  <section id="about-all">
-    <h1 class="about-introduction">Who's am I, anyway?</h1>
-    <p class="about-description">
-      I am studying Computer Science at the Polytechnic University of the Philippines.
-      My interests include web development and other stuff.
-    </p>
-    <p class="about-description">
-      Take a look at my works below! :>
-    </p>
-  </section>
+  <hr id="about-div">
+
+  <div>
+    <section id="about-all">
+      <div>
+        <h1 class="about-introduction">Who's am I, anyway?</h1>
+        <p class="about-description">
+          I am studying Computer Science at the Polytechnic University of the Philippines.
+          My interests include web development and other stuff. 
+          I aspire to become a software engineer! :>
+          <!-- 160824, ni-next line ko lang para mas madaling basahin, if 
+          you want to put literally in the next sa actual web, use <br>, like... -->
+          <br>
+          Take a look at my works below! 
+        </p>
+      </div>
+    </section>
+    <!-- probably, i'll add some picture here or something -->
+  </div>
   <hr>
 
   <section id="project-all">
@@ -65,7 +77,7 @@
   <hr>
 </body>
 
-<!-- THIS IS A FREAKING FOOTER!! -->
+<!-- THIS FOR THE FOOTER!! -->
 <footer class="footer-moment">
   <div>
     
